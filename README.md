@@ -2,7 +2,7 @@
 PythonCodebase
 Download Inventory_Module.zip so you have appropriate template setup
 #Dependencies
-This app is built using python flask frame work 
+This app is built using Python 3.10.6 - flask frame work 
 Below are the modules imported, please install any modules missing in your environment
  flask
  ipaddress
@@ -13,8 +13,7 @@ Below are the modules imported, please install any modules missing in your envir
  jsonify
  render_template
 #API 
-This is a get api deployed using PythonAnywhere for validation and testing, attached
-Swagger screenshots for testing
+This is a get api deployed using PythonAnywhere for validation and testing ( any api testing framework)
 http://lakshmanpythonapps.pythonanywhere.com/addresses
 Parameters to be passed:
 addr - a valid ip address
