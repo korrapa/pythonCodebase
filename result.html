@@ -1,0 +1,21 @@
+<!doctype html>
+  <table border = 1>
+      <tr  class="bg-info">
+        <th>ID</th>
+        <th>Address</th>
+        <th>Object_Name</th>
+        <th>Owner</th>
+    </tr>
+    {% for key in result %}
+    <tr>
+       <th> {{ key.id }} </th>
+       <th> {{ key.address }} </th>
+       <th> {{ key.object_name }} </th>
+       <th> {{ key.owner }} </th>
+    </tr>
+       {% endfor %}
+ </table><br><br>
+
+  <form action = "http://localhost:5000/report" method = "GET">
+  <input type="submit" value="QUERY AGAIN!">
+</form>

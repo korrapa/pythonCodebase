@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firewall Inventory Listing</title>
+<body>
+<h1>
+Enter details to list matching inventory
+</h1>
+<form action = "http://localhost:5000/report" method = "POST">
+  <label for="addr">IP Address:</label><br>
+  <input type="text" id="addr" name="addr"><br><br>
+  <label for="mask">Subnet IP Notation or CIDR:</label><br>
+<input type="text" id="mask" name="mask"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
